@@ -25,6 +25,22 @@
       top: 10px;
       left: 10px;
     }
+    #notification {
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
   </style>
 </head>
 
@@ -40,6 +56,9 @@
           <li class="nav-item active">
             <a class="nav-link" href="/index.html">主页<span class="sr-only">主页</span></a>
           </li>
+          <div id="notification">
+            <a class="center" href="">因图床服务出现问题，本网站暂停图像服务。<br>预计于北京时间14日22:00恢复，感谢您的理解和包容。</a>
+          </div>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">活动</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
