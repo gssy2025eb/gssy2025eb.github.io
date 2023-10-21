@@ -9,6 +9,8 @@
   <title>关上实验学校 初二(2)班</title>
   <link href="/anx/js-css/color.css" rel="stylesheet">
   <link href="/anx/js-css/color.css" rel="stylesheet" id="dark-mode">
+  <link rel="shortcut icon" href="https://i.imgs.ovh/2023/10/21/2cAYN.png"/>
+  <link rel="bookmark" href="https://i.imgs.ovh/2023/10/21/2cAYN.png"/>
   <style>
     .center1 {
       text-align: center;
@@ -27,20 +29,20 @@
     }
     #notification {
     position: fixed;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 500px;
-    padding: 8px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #66CCFF;
+      padding: 20px;
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+    #close-btn {
+    position: absolute;
+      top: 5%;
+      right: 1%;
+      border-radius: 5px;
+    }
   </style>
 </head>
 
@@ -56,9 +58,6 @@
           <li class="nav-item active">
             <a class="nav-link" href="/index.html">主页<span class="sr-only">主页</span></a>
           </li>
-          <div id="notification">
-            <a class="center" href="">因图床服务出现问题，本网站暂停图像服务。<br>预计于北京时间14日22:00恢复，感谢您的理解和包容。</a>
-          </div>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">活动</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -69,6 +68,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/anx/updates.html">更新日志<span class="sr-only">更新日志</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/anx/helps.html">支持&捐赠<span class="sr-only">支持&捐赠</span></a>
           </li>
         </ul>
       </div>
@@ -86,21 +88,18 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <a href="/act/20230601/index.html"><img class="d-block w-100" src="https://img1.imgtp.com/2023/08/25/l8xdnb7F.jpg" alt="2023-六一"></a>
+              <a href="/act/20230601/index.html"><img class="d-block w-100" src="https://i.imgs.ovh/2023/10/21/2cHzT.jpeg" alt="2023-六一"></a>
               <div class="carousel-caption d-none d-md-block">
-                <h5><a href="/act/20230601/index.html">2023-六一</a></h5>
               </div>
             </div>
             <div class="carousel-item">
-              <a href="/act/202304/index.html"><img class="d-block w-100" src="https://img1.imgtp.com/2023/08/25/wYvtjpl0.jpg" alt="2023-春游"></a>
+              <a href="/act/202304/index.html"><img class="d-block w-100" src="https://i.imgs.ovh/2023/10/21/2cl2R.jpeg" alt="2023-春游"></a>
               <div class="carousel-caption d-none d-md-block">
-                <h5><a href="/act/202304/index.html">2023-春游</a></h5>
               </div>
             </div>
             <div class="carousel-item">
-              <a href="/act/202211/index.html"><img class="d-block w-100" src="https://img1.imgtp.com/2023/08/25/UxZY0zsR.jpg" alt="2022-运动会"></a>
+              <a href="/act/202211/index.html"><img class="d-block w-100" src="https://i.imgs.ovh/2023/10/21/2cnhp.jpeg" alt="2022-运动会"></a>
               <div class="carousel-caption d-none d-md-block">
-                <h5><a href="/act/202211/index.html">2022-运动会</a></h5>
               </div>
             </div>
           </div>
@@ -130,7 +129,6 @@
     <div class="row text-center">
       <div class="col-md-4 pb-1 pb-md-0">
         <div class="card">
-          <img class="card-img-top" src="https://img1.imgtp.com/2023/08/25/1xK8ASOk.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">2023-六一</h5>
             <a href="/act/20230601/index.html" class="btn btn-primary">去看看</a>
@@ -139,7 +137,6 @@
       </div>
       <div class="col-md-4 pb-1 pb-md-0">
         <div class="card">
-          <img class="card-img-top" src="https://img1.imgtp.com/2023/08/25/YKvEV5Kc.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">2023-春游</h5>
             <a href="/act/202304/index.html" class="btn btn-primary">去看看</a>
@@ -148,7 +145,6 @@
       </div>
       <div class="col-md-4 pb-1 pb-md-0">
         <div class="card">
-          <img class="card-img-top" src="https://img1.imgtp.com/2023/08/25/7pGRnJAL.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">2022-运动会</h5>
             <a href="/act/202211/index.html" class="btn btn-primary">去看看</a>
@@ -183,7 +179,7 @@
       </address>
       <address>
       <strong>鸣谢：</strong><br>
-        陈旭
+        陈旭 杨素东 初二年级组 初二2班
       </address>
       <address>
         <strong>意见反馈：</strong><br>
@@ -200,6 +196,14 @@
 
   <hr>
 
+  <div id="notification">
+    <p>由于资金不足，本网站决定打开“支持&捐赠”端口，欢迎进行捐赠援助。<br>感谢大家对本网站的支持，谢谢！</p>
+    <button id="close-btn" onclick="closeNotification()">x</button>
+    <div class="center1">
+    <a href="/anx/helps.html" class="btn btn-primary">支持&捐赠</a>
+    </div>
+  </div>
+
   <footer class="text-center">
     <div class="container">
       <div class="row">
@@ -208,6 +212,7 @@
           <p>注：本网站托管于Github，感谢所有对本网站提供支持及帮助的个人及团队！</p>
           <a href="https://github.com/gssy2025eb/gssy2025eb.github.io.git" class="btn btn-primary">前往Github仓库</a>
           <a href="/anx/updates.html" class="btn btn-primary">更新日志</a>
+          <a href="/anx/helps.html" class="btn btn-primary">支持&捐赠</a>
         </div>
       </div>
     </div>
@@ -237,6 +242,10 @@
         }
       });
     });
+    function closeNotification() {
+    var notification = document.getElementById("notification");
+    notification.style.display = "none";
+    }
   </script>
   <br>
   <script src="/anx/js-css/jquery.js"></script>
